@@ -1,22 +1,28 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "devDependencies": {
-    "electron": "^9.0.3"
-  }
+    "name": "you-are-what-you-eat",
+    "version": "1.0.0",
+    "description": "a food diary",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+        "food",
+        "healthy"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+        "electron": "^9.0.3"
+    },
+    "dependencies": {
+        "electron-debug": "^3.1.0",
+        "electron-store": "^5.2.0",
+        "flatpickr": "^4.6.3",
+        "moment": "^2.26.0",
+        "nedb": "^1.8.0",
+        "papercss": "^1.6.1",
+        "spectre.css": "^0.5.8"
+    }
 }

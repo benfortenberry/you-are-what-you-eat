@@ -1,0 +1,32 @@
+body {
+    color: #D7E1E3;
+    background-color: #2A2D3D;
+    font-family: 'Hammersmith One', cursive;
+}
+
+.paddingX {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: .8em;
+}
+
+tr {
+    color: #f7f7f7;
+}
+
+.subtitle {
+    margin-top: -20px;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+sup {
+    color: #D7E1E3;
+}
+
+.header-icon {
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}

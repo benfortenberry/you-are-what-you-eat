@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>You Are What You Eat</title>
+    <link rel="stylesheet" href="spectre.css" type="text/css">
+    <link rel="stylesheet" href="../node_modules/spectre.css/dist/spectre-icons.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src gap://ready file://* *; style-src 'self' http://* https://* 'unsafe-inline'; script-src 'self' http://* https://* 'unsafe-inline' 'unsafe-eval'">
+
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+</head>
+
+<body>
+
+    <div class="container pt-2">
+        <div class="columns">
+            <div class="column col-7">
+                <img class="header-icon" src="../assets/eat3.png" />
+                <h3>
+                    You Are What You Eat
+                </h3>
+                <p class='subtitle'>a food diary</p>
+            </div>
+            <div class="column col-5 text-right">
+                <button id="createFoodBtn" type="button" class="btn s-circle btn-primary btn-sm text-right">
+                    <i class="icon icon-plus"></i>
+          </button>
+
+            </div>
+
+
+            <div class="column col-12">
+
+
+                <table class="table ">
+
+                    <tbody id='testy'>
+
+                    </tbody>
+                </table>
+                <!-- <ul id="foodList"></ul> -->
+                <!-- <ul id="testy"> -->
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>. -->
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
