@@ -22,7 +22,6 @@
         "flatpickr": "^4.6.3",
         "moment": "^2.26.0",
         "nedb": "^1.8.0",
-        "papercss": "^1.6.1",
         "spectre.css": "^0.5.8"
     }
 }
