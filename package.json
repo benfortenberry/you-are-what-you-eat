@@ -6,12 +6,12 @@
     "scripts": {
         "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": "https://github.com/benfortenberry/you-are-what-you-eat",
     "keywords": [
         "food",
         "healthy"
     ],
-    "author": "GitHub",
+    "author": "Ben Fortenberry",
     "license": "CC0-1.0",
     "devDependencies": {
         "electron": "^9.0.3"
